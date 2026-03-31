@@ -1,7 +1,0 @@
-@import "tailwindcss";
-@custom-variant dark (&:where(.dark, .dark *));
-
-html, body {
-  /* This ensures the 'empty space' at the bottom matches your theme */
-  @apply bg-white dark:bg-slate-950 transition-colors duration-500;
-}
