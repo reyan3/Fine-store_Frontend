@@ -40,7 +40,6 @@ const Navbar = () => {
       try {
         const response = await api.get(`/cart/${userId}`);
         const items = response?.data?.items || []
-        console.log(items)
         const total = items.reduce(
           (sum, item) => sum + item.quantity,
           0,
