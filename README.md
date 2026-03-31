@@ -150,7 +150,7 @@ EMAIL_PASS=your_nodemailer_password
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/fine-store.git
+git clone https://github.com/reyan3/fine-store.git
 cd fine-store
 
 # Backend
